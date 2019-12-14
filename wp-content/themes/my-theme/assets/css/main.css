@@ -1,0 +1,202 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-family: 'Dosis'; /* font fantaisiste ; */
+}
+
+.header {
+  background-color: #00770f;
+  display:flex;
+}
+
+.header-logo{
+  width:270px;
+}
+
+header > nav {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width:120rem;
+  position: relative;
+  left: 45rem;
+}
+
+.menu-menu-principal-container {
+  width: 100rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-menu-principal-container > ul {
+  display:flex;
+      list-style-type: none;
+}
+
+.menu-menu-principal-container > ul > li {
+  margin-left:2rem;
+}
+
+.menu-menu-principal-container > ul > li a {
+  text-decoration: none;
+  color:white;
+  font-size:15px;
+}
+
+.section-1 {
+  text-align:center;
+  background-image: url("../img/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  height:55rem;
+  position: relative;
+    bottom: 23px;
+}
+
+.texte1 {
+  text-align:center;
+    height: 19rem;
+    position: relative;
+    top: 15rem;
+}
+
+.texte1 > form {
+  padding-bottom: 4rem;
+}
+
+.texte1 > h3 {
+  font-size:2.5rem;
+}
+
+.texte1 > h4 {
+  font-size:1.7rem;
+  padding-top:2rem;
+}
+
+.rencontre > input {
+    background-color: #00702B;
+    width: 255px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    border: 0px;
+    font-size: 14px;
+}
+
+.section-2 {
+  height:65rem;
+  background: white;
+  position: relative;
+bottom: 5.5rem;
+}
+
+.texte2 {
+  text-align:center;
+  height: 15rem;
+    position: relative;
+    top: 11rem;
+}
+
+.titre {
+  font-size: 2.7rem;
+    text-align:center;
+    letter-spacing:1rem;
+}
+
+.trait {
+  color:darkgrey;
+  text-align:center;
+  padding-bottom:5rem;
+}
+
+.txt1 {
+  font-size:2rem;
+
+}
+
+
+.image1 {
+  background-image: url('../img/bandeau.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+  height:100%;
+}
+
+
+.textepgm {
+  display:flex;
+  justify-content: space-around;
+}
+
+.sstitre > h4 {
+  color: rgb(119,143,92)
+}
+
+.sstitre {
+  font-size:2rem
+}
+
+.txtgauche {
+  font-size:1.7rem;
+}
+
+.txtdroite {
+  font-size:1.7rem;
+}
+
+.rencontre {
+  text-align:center;
+  padding-top:2rem;
+}
+/*-------------------------ORATEURS-------------------*/
+
+.txt1 > p {
+  text-align:center;
+}
+
+.orateurs {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.orateursbis {
+  display:flex;
+  justify-content: space-evenly;
+  padding-bottom: 7rem;
+}
+
+/*-------------------------INFOS PRATIQUE-------------------*/
+.illustration {
+  background-image: url("../img/lieu.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align:center;
+  height:55rem;
+  position: relative;
+    bottom: 23px;
+}
+
+.barrevert {
+  background-color:rgb(154,207,100);
+  width: 22%;
+  position: relative;
+  left: 10rem;
+  height: 100%;
+  text-align: center;
+}
+
+.tx {
+      padding-top: 25%;
+}
+
+.tx > p {
+
+  font-size:2rem;
+  color:white;
+  display: flex;
+    justify-content: center;
+}
