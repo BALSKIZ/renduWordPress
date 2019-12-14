@@ -63,11 +63,15 @@ if ( have_posts() ) {
         <div class="sstitre">
           <h4> <?php the_field('conf_sstitle1'); ?> </h4> <br/>
          </div>
-            <p><b> 8:30 </b>  <?php the_field('p'); ?> </p>
-            <p><b> 8:30 </b>  <?php the_field('p2'); ?> </p>
-            <p><b> 9:00 </b>  <?php the_field('p3'); ?> </p>
-            <p><b> 9:45 </b>  <?php the_field('p4'); ?> </p>
-            <p><b> 10:15 </b> <?php the_field('p5'); ?> </p>
+            <?php
+            $programs = get_field('programs');
+            //var_dump($programs);
+            foreach($programs as $program){
+              echo "<b>".$program['hour']."</b>";
+              echo $program['descrption'];
+              echo "<br/>";
+            }
+            ?>
         </div>
 
         <div class="txtdroite">
